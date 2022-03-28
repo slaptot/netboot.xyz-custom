@@ -1,11 +1,13 @@
 #!ipxe
 ###
+### VITALINUX ONLINE INSTALLER
 ### netboot.xyz-custom menu example
+###
 ###
 
 :custom
 clear custom_choice
-menu This is a Test Menu
+menu Bienvenido a la instalación en red de Vitalinux
 item --gap This is the first sub menu
 item option_one ${space} Loading a kernel and initrd
 item option_two ${space} Loading an ISO
