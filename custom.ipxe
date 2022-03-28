@@ -16,10 +16,5 @@ goto ${custom_choice}
 goto custom_exit
 
 :option_two
-kernel https://boot.netboot.xyz/memdisk raw iso
-initrd https://wiki.vitalinux.educa.aragon.es/isos/vitalinux-2.2.01.27-desktop-amd64.iso
-boot || goto custom_exit
+sanboot https://wiki.vitalinux.educa.aragon.es/isos/vitalinux-2.2.01.27-desktop-amd64.iso
 
-:custom_exit
-chain utils.ipxe
-exit
